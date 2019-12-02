@@ -208,7 +208,9 @@ links_settings:
   layout: block
 
 links:
-  何三岁: https://www.cssmini.com/blog/
+  肖道友: https://gitom.top
+  正正: http://nyrh.gitee.io/zheng/
+  易烊首玺: https://shouchen123.github.io
   #Title: http://yoursite.com
 
 # Table of Contents in the Sidebar
@@ -332,22 +334,22 @@ calendar:
   maxResults: 250
 
 # sharePage
-needmoreshare2:
-  enable: true
-  postbottom:
-    enable: true #是否开启博客分享按钮
-    options:
-      iconStyle: box
-      boxForm: horizontal
-      position: bottomCenter
-      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
-  float:
-    enable: true #网站分享按钮
-    options:
-      iconStyle: box
-      boxForm: horizontal
-      position: middleRight
-      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
+# needmoreshare2:
+#   enable: true
+#   postbottom:
+#     enable: true #是否开启博客分享按钮
+#     options:
+#       iconStyle: box
+#       boxForm: horizontal
+#       position: bottomCenter
+#       networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
+#   float:
+#     enable: true #网站分享按钮
+#     options:
+#       iconStyle: box
+#       boxForm: horizontal
+#       position: middleRight
+#       networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
 
 
 # ---------------------------------------------------------------
@@ -430,10 +432,10 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: true
+  enable: false
 
   # Uri of fonts host, e.g. //fonts.googleapis.com (Default).
-  host:
+  host: 
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -594,7 +596,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active: gitalk
+  active: valine
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Modify texts or order for any navs, here are some examples.
@@ -638,7 +640,7 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: false
+  enable: true
   appid: EbEM3zMHeBweQya5VW0Dz4oN-gzGzoHsz # Your leancloud application appid
   appkey: DDieHFSulpu5fwyl4FaHTu27 # Your leancloud application appkey
   notify: false # Mail notifier
@@ -661,7 +663,7 @@ livere_uid: # <your_uid>
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
-  enable: true
+  enable: false
   github_id: ljh19951221 # GitHub repo owner
   repo: HexoContext # Repository name to store issues
   client_id: 2555f71bc5b74cea87dc # GitHub Application Client ID
@@ -766,7 +768,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
@@ -893,7 +895,7 @@ three:
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
 # For more information: https://github.com/hustcc/canvas-nest.js
 canvas_nest:
-  enable: true
+  enable: false
   onmobile: true # Display on mobile or not
   color: "0,0,0" # RGB values, use `,` to separate
   opacity: 0.5 # The opacity of line: 0~1
@@ -1059,3 +1061,25 @@ css: css
 js: js
 images: images
 
+# # hexo-neat
+# # 博文压缩
+# neat_enable: true
+# # 压缩html
+# neat_html:
+#   enable: true
+#   exclude:
+# # 压缩css  
+# neat_css:
+#   enable: true
+#   exclude:
+#     - '**/*.min.css'
+# # 压缩js
+# neat_js:
+#   enable: true
+#   mangle: true
+#   output:
+#   compress:
+#   exclude:
+#     - '**/*.min.js'
+#     - '**/jquery.fancybox.pack.js'
+#     - '**/index.js
